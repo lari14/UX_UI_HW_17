@@ -1,3 +1,41 @@
 .inline-block{
     display:inline-block;
+    vertical-align:top;
 }
+.logo{
+    width:23%;
+    padding:1%;
+}
+nav{
+    width:75%;
+    padding:1%;
+}
+ul{
+    width:50%;
+    margin-left:auto;
+}
+.logo{
+    text-align:center;
+}
+/*Below this line is the hero image section.*/
+
+.heroImg{
+    height:600px;
+    padding:25;
+}
+.content{
+    width:500px;
+    margin:0 auto;
+}
+/*Below this line is the footer CSS*/
+
+footer{
+    background-color: lightgrey;
+    padding: 5px;
+}
+ul{
+    display:inline-block;
+    vertical-align: top;
+    padding-left:620px;
+}
+
