@@ -1,22 +1,25 @@
+.navigation{
+    flex-direction: row;
+    
+}
 .inline-block{
     display:inline-block;
     vertical-align:top;
 }
 .logo{
-    width:23%;
-    padding:1%;
+    padding-left:10%;
+   
 }
 nav{
     width:75%;
-    padding:1%;
+    padding-top:4%;
+    padding-left:11%;
 }
-ul{
-    width:50%;
-    margin-left:auto;
-}
-.logo{
+ul {
     text-align:center;
+    width:50%;
 }
+
 /*Below this line is the hero image section.*/
 
 .heroImg{
@@ -28,6 +31,71 @@ ul{
     width:500px;
     margin:0 auto;
 }
+/* My UX Skills section coded using CSS flex.Style as two columns. */
+
+h1.myskills{
+    border-style:solid;
+    border-width:2px;
+}
+.container-fluid{
+    float:center;
+    border-style:solid;
+    border-width:2px;
+    height: 600px;
+    width: 50;
+    min-width: 80%;
+    display: flex;
+    position: relative;
+}
+
+.left{
+    float:left;
+    background-color:lightgrey;
+    padding:1px;
+    margin:auto;
+    
+
+}
+.right{
+    float:right;
+    background-color:lightgrey;
+    padding:1px;
+    margin:auto;
+}
+h3{
+    text-align:center;
+}
+h4{
+    text-align: center;
+}
+.uidesignskills{
+    Padding-top:10px;
+}
+.communicationskills{
+    padding-top:40px;
+    
+}
+
+/*below this line starts the my work section. Note that the container fluid on top is the same class type and the my skills section*/
+
+h1.mywork{
+    border-style:solid;
+    border-width:2px;   
+}
+p{
+    text-align:center;
+}
+
+.project1{
+    margin:auto;
+}
+.project2{
+    margin:auto;
+}
+.project3{
+    margin:auto;
+}
+
 /*Below this line is the footer CSS*/
 
 footer{
