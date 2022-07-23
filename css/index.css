@@ -1,7 +1,3 @@
-.navigation{
-    flex-direction: row;
-    
-}
 .inline-block{
     display:inline-block;
     vertical-align:top;
@@ -15,25 +11,25 @@ nav{
     padding-top:4%;
     padding-left:11%;
 }
-ul {
+nav ul {
     text-align:center;
     width:50%;
 }
 
 /*Below this line is the hero image section.*/
 
-.heroImg{
-    height:600px;
-    padding-right:480px;
-    background-repeat:no-repeat;
-}
 .content{
-    width:500px;
-    margin:0 auto;
+    background-color:#CAD3E8;
+    width:1300px;
+    height:450px;
+    
 }
-/* My UX Skills section coded using CSS flex.Style as two columns. */
 
-h1.myskills{
+/* Media Queries for My Skills and My Work section.*/
+@media only screen and (max-width:600px){ 
+/* My Skills section coded using CSS flex.Style as two columns. */
+
+h2.myskills{
     border-style:solid;
     border-width:2px;
 }
@@ -51,7 +47,6 @@ h1.myskills{
 .left{
     float:left;
     background-color:lightgrey;
-    padding:1px;
     margin:auto;
     
 
@@ -59,7 +54,6 @@ h1.myskills{
 .right{
     float:right;
     background-color:lightgrey;
-    padding:1px;
     margin:auto;
 }
 h3{
@@ -69,10 +63,8 @@ h4{
     text-align: center;
 }
 .uidesignskills{
-    Padding-top:10px;
 }
 .communicationskills{
-    padding-top:40px;
     
 }
 
@@ -95,7 +87,7 @@ p{
 .project3{
     margin:auto;
 }
-
+}
 /*Below this line is the footer CSS*/
 
 footer{
